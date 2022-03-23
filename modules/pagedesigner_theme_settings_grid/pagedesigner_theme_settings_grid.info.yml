@@ -1,0 +1,9 @@
+name: Pagedesigner Theme Settings - Grid definitions
+description: Adds grid definitions to pagedesigner theme settings
+package: pagedesigner
+type: module
+core: 8.x
+dependencies:
+  - pagedesigner:pagedesigner
+  - pagedesigner_theme_settings:pagedesigner_theme_settings
+

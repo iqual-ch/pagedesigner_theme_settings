@@ -1,0 +1,170 @@
+theme_settings.theme_settings.*:
+  type: config_entity
+  label: 'Theme settings'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: string
+      label: 'Label'
+    target_file:
+      type: string
+      label: 'Target File'
+    style_definition_containers:
+      type: mapping
+      label: 'Style definition containers'
+      mapping:
+        id:
+          type: string
+          label: 'ID'
+        weight:
+          type: int
+          label: 'Weight'
+        label:
+          type: string
+          label: 'Label'
+        definitions:
+          type: mapping
+          label: 'Style definitions'
+
+
+#     color_definitions:
+#       type: mapping
+#       label: 'Color definitions'
+#       mapping:
+#         id:
+#           type: string
+#           label: 'ID'
+#         weight:
+#           type: int
+#           label: 'Weight'
+#         label:
+#           type: string
+#           label: 'Label'
+#         plugin_id:
+#           type: string
+#           label: 'Plugin ID'
+#         colors:
+#           type: mapping
+#           label: 'Colors'
+#           mapping:
+#             id:
+#               type: string
+#               label: 'ID'
+#             weight:
+#               type: int
+#               label: 'Weight'
+#             label:
+#               type: string
+#               label: 'Label'
+#             plugin_id:
+#               type: string
+#               label: 'Plugin ID'
+#             color:
+#               type: string
+#               label: 'Color'
+
+
+#     typography_definitions:
+#       type: mapping
+#       label: 'Typography definitions'
+#       mapping:
+#         id:
+#           type: string
+#           label: 'ID'
+#         weight:
+#           type: int
+#           label: 'Weight'
+#         label:
+#           type: string
+#           label: 'Label'
+#         scss_mixin:
+#           type: string
+#           label: 'SCSS mixin'
+#         styles:
+#           type: css_defintion
+#           label: 'Styles'
+
+
+#     grid_definitions:
+#       type: mapping
+#       label: 'Grid definitions'
+#       mapping:
+#         id:
+#           type: string
+#           label: 'ID'
+#         label:
+#           type: string
+#           label: 'Label'
+#         scss_mixin:
+#           type: string
+#           label: 'SCSS mixin'
+#         styles:
+#           type: css_defintion
+#           label: 'Styles'
+
+
+#     component_definitions:
+#       type: mapping
+#       label: 'Component definitions'
+#       mapping:
+#         id:
+#           type: string
+#           label: 'Component ID'
+#         definitions:
+#           type: mapping
+#           label: 'Definitions'
+#           mapping:
+#             id:
+#               type: string
+#               label: 'ID'
+#             label:
+#               type: string
+#               label: 'Label'
+#             scss_mixin:
+#               type: string
+#               label: 'SCSS mixin'
+#             styles:
+#               type: css_defintion
+#               label: 'Styles'
+
+# css_defintion:
+#   weight:
+#     type: int
+#     label: 'Weight'
+#   plugin_id:
+#     type: string
+#     label: 'Plugin ID'
+#   css_selectors:
+#     type: sequence
+#     sequence:
+#       css_selector:
+#         type: string
+#         label: 'CSS selector'
+#   css_properties:
+#     type: mapping
+#     label: 'CSS Properties'
+#     mapping:
+#       breakpoint:
+#         type: string
+#         label: 'Breakpoint'
+#       properties:
+#         type: mapping
+#         label: 'Properties'
+#         mapping:
+#           property_name:
+#             type: string
+#             label: 'Property name'
+#           property_value:
+#             type: string
+#             label: 'Property value'
+#   children:
+#     type: mapping
+#     mapping:
+#       id:
+#         type: string
+#         label: 'ID'
+#       styles:
+#         type: css_defintion
+#         label: 'Styles'

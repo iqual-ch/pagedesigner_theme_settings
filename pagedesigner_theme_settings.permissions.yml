@@ -1,0 +1,15 @@
+administer pagedesigner theme settings:
+  title: 'Administer pagedesigner theme settings'
+  description: 'Edit settings'
+
+add pagedesigner theme settings:
+  title: 'Add pagedesigner theme settings'
+  description: 'Add settings'
+
+edit pagedesigner theme settings:
+  title: 'Edit pagedesigner theme settings'
+  description: 'Edit settings'
+
+delete pagedesigner theme settings:
+  title: 'Delete pagedesigner theme settings'
+  description: 'Delete settings'

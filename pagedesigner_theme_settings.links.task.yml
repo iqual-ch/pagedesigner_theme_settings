@@ -1,0 +1,36 @@
+entity.theme_settings.collection:
+  title: 'Pagedesigner theme settings'
+  route_name: entity.theme_settings.collection
+  base_route: system.themes_page
+  weight: 10
+
+# pagedesigner_theme_settings.grid:
+#   title: 'Grid settings'
+#   route_name: pagedesigner_theme_settings.grid
+#   description: 'Edit global grid settings'
+#   parent_id: entity.theme_settings.collection
+#   weight: 1
+
+# pagedesigner_theme_settings.colors:
+#   title: 'Color settings'
+#   route_name: pagedesigner_theme_settings.colors
+#   description: 'Edit global color settings'
+#   parent_id: entity.theme_settings.collection
+#   weight: 2
+
+# pagedesigner_theme_settings.typography:
+#   title: 'Typography settings'
+#   route_name: pagedesigner_theme_settings.typography
+#   description: 'Edit global typography settings'
+#   parent_id: entity.theme_settings.collection
+#   weight: 3
+
+# pagedesigner_theme_settings.components:
+#   title: 'Component settings'
+#   route_name: pagedesigner_theme_settings.components
+#   description: 'Edit component settings'
+#   parent_id: entity.theme_settings.collection
+#   weight: 4
+
+
+

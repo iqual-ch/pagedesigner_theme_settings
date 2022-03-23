@@ -1,0 +1,53 @@
+# Main
+entity.theme_settings.collection:
+  path: '/admin/appearance/pagedesigner-theme-settings'
+  requirements:
+    _permission: 'administer pagedesigner theme settings'
+  defaults:
+    _entity_list: 'theme_settings'
+    _title: 'Pagedesigner theme settings'
+
+# Add theme settings form
+entity.theme_settings.add_form:
+  path: '/admin/appearance/pagedesigner-theme-settings/add'
+  defaults:
+    _entity_form: theme_settings.default
+    _title: 'Add new theme settings'
+  requirements:
+    _permission: 'add pagedesigner theme settings'
+
+# Edit theme settings form
+entity.theme_settings.edit_form:
+  path: '/admin/appearance/pagedesigner-theme-settings/{theme_settings}/edit'
+  defaults:
+    _entity_form: theme_settings.default
+    _title: 'Edit theme settings'
+  requirements:
+    _permission: 'edit pagedesigner theme settings'
+
+# Delete theme settings form
+entity.theme_settings.delete_form:
+  path: '/admin/appearance/pagedesigner-theme-settings/{theme_settings}/delete'
+  defaults:
+    _entity_form: theme_settings.delete
+    _title: 'Delete theme settings'
+  requirements:
+    _permission: 'delete pagedesigner theme settings'
+
+# Edit definition form
+pagedesigner_theme_settings.definition.edit_form:
+  path: '/admin/appearance/pagedesigner-theme-settings/{theme_settings}/definition/{container_id}/{definition}/edit'
+  defaults:
+    _title: "Pagedesigner theme settings defitions form"
+    _form: '\Drupal\pagedesigner_theme_settings\Form\ThemeSettingsDefinitionFormEdit'
+  requirements:
+    _permission: "edit pagedesigner theme settings"
+
+# Add definition form
+pagedesigner_theme_settings.definition.add_form:
+  path: '/admin/appearance/pagedesigner-theme-settings/{theme_settings}/definition/add/{plugin_id}/{container_id}'
+  defaults:
+    _title: "Pagedesigner theme settings defitions form"
+    _form: '\Drupal\pagedesigner_theme_settings\Form\ThemeSettingsDefinitionFormAdd'
+  requirements:
+    _permission: "edit pagedesigner theme settings"

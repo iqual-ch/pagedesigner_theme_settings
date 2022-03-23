@@ -1,0 +1,381 @@
+uuid: 1d1d65cf-c0b1-4ca7-87e1-65a932062d4d
+langcode: de
+status: true
+dependencies: {  }
+id: default
+label: Default
+target_file: /var/www/publich/themes/iq_barrio/_definitions.scss
+style_definitions_containers:
+  color_definition_container:
+    id: color_definitions_container
+    label: 'Color definitions'
+    weight: 10
+    definitions:
+      group_grey:
+        label: Graustufen
+        id: group_grey
+        weight: '50'
+        plugin_id: color_group
+        colors:
+          color_grey:
+            label: Grey
+            id: color_grey
+            weight: '10'
+            less_var: $color-grey
+            value: '#000000'
+            group: group_grey
+            plugin_id: color
+          color_grey_80:
+            label: 'Grey 80%'
+            id: color_grey_80
+            weight: '20'
+            less_var: $color-grey-80
+            value: '#333333'
+            group: group_grey
+            plugin_id: color
+          color_grey_60:
+            label: 'Grey 60%'
+            id: color_grey_60
+            weight: '30'
+            less_var: $color-grey-60
+            value: '#666666'
+            group: group_grey
+            plugin_id: color
+          color_grey_40:
+            label: 'Grey 40%'
+            id: color_grey_40
+            weight: '40'
+            less_var: $color-grey-40
+            value: '#999999'
+            group: group_grey
+            plugin_id: color
+          color_grey_20:
+            label: 'Grey 20%'
+            id: color_grey_20
+            weight: '50'
+            less_var: $color-grey-20
+            value: '#CCCCCC'
+            group: group_grey
+            plugin_id: color
+          color_grey_10:
+            label: 'Grey 10%'
+            id: color_grey_10
+            weight: '60'
+            less_var: $color-grey-10
+            value: '#E5E5E5'
+            group: group_grey
+            plugin_id: color
+          color_grey_5:
+            label: 'Grey 5%'
+            id: color_grey_5
+            weight: '70'
+            less_var: $color-grey-5
+            value: '#F2F2F2'
+            group: group_grey
+            plugin_id: color
+      group_primary:
+        label: Primary
+        id: group_primary
+        weight: '10'
+        plugin_id: color_group
+        colors:
+          color_primary:
+            label: Primary
+            id: color_primary
+            weight: '10'
+            less_var: $color-primary
+            value: '#A4AC85'
+            group: group_primary
+            plugin_id: color
+          color_primary_80:
+            label: 'Primary 80%'
+            id: color_primary_80
+            weight: '20'
+            less_var: $color-primary-80
+            value: '#B6BC9D'
+            group: group_primary
+            plugin_id: color
+          color_primary_60:
+            label: 'Primary 60%'
+            id: color_primary_60
+            weight: '30'
+            less_var: $color-primary-60
+            value: '#C8CDB6'
+            group: group_primary
+            plugin_id: color
+          color_primary_40:
+            label: 'Primary 40%'
+            id: color_primary_40
+            weight: '40'
+            less_var: $color-primary-40
+            value: '#DADECE'
+            group: group_primary
+            plugin_id: color
+          color_primary_20:
+            label: 'Primary 20%'
+            id: color_primary_20
+            weight: '50'
+            less_var: $color-primary-20
+            value: '#EDEEE7'
+            group: group_primary
+            plugin_id: color
+          color_primary_10:
+            label: 'Primary 10%'
+            id: color_primary_10
+            weight: '60'
+            less_var: $color-primary-10
+            value: '#F6F7F3'
+            group: group_primary
+            plugin_id: color
+          color_primary_5:
+            label: 'Primary 5%'
+            id: color_primary_5
+            weight: '70'
+            less_var: $color-primary-5
+            value: '#FAFBF9'
+            group: group_primary
+            plugin_id: color
+      group_secondary:
+        label: Secondary
+        id: group_secondary
+        weight: '20'
+        plugin_id: color_group
+        colors:
+          color_secondary:
+            label: Secondary
+            id: color_secondary
+            weight: '10'
+            less_var: $color-secondary
+            value: '#DF795A'
+            group: group_secondary
+            plugin_id: color
+          color_secondary_80:
+            label: 'Secondary 80%'
+            id: color_secondary_80
+            weight: '20'
+            less_var: $color-secondary-80
+            value: '#E5937B'
+            group: group_primary
+            plugin_id: color
+          color_secondary_60:
+            label: 'Secondary 60%'
+            id: color_secondary_60
+            weight: '30'
+            less_var: $color-secondary-60
+            value: '#ECAE9C'
+            group: group_secondary
+            plugin_id: color
+          color_secondary_40:
+            label: 'Secondary 40%'
+            id: color_secondary_40
+            weight: '40'
+            less_var: $color-secondary-40
+            value: '#F2C9BD'
+            group: group_secondary
+            plugin_id: color
+          color_secondary_20:
+            label: 'Secondary 20%'
+            id: color_secondary_20
+            weight: '50'
+            less_var: $color-secondary-20
+            value: '#F9E4DE'
+            group: group_secondary
+            plugin_id: color
+          color_secondary_10:
+            label: 'Secondary 10%'
+            id: color_secondary_10
+            weight: '60'
+            less_var: $color-secondary-10
+            value: '#FCF1EE'
+            group: group_secondary
+            plugin_id: color
+          color_secondary_5:
+            label: 'Secondary 5%'
+            id: color_secondary_5
+            weight: '70'
+            less_var: $color-secondary-5
+            value: '#FEF8F6'
+            group: group_secondary
+            plugin_id: color
+      group_tertiary:
+        label: Tertiary
+        id: group_tertiary
+        weight: '30'
+        plugin_id: color_group
+        colors:
+          color_tertiary:
+            label: Tertiary
+            id: color_tertiary
+            weight: '10'
+            less_var: $color-tertiary
+            value: '#F1BA2C'
+            group: group_tertiary
+            plugin_id: color
+          color_tertiary_80:
+            label: 'Tertiary 80%'
+            id: color_tertiary_80
+            weight: '20'
+            less_var: $color-tertiary-80
+            value: '#F3C756'
+            group: group_tertiary
+            plugin_id: color
+          color_tertiary_60:
+            label: 'Tertiary 60%'
+            id: color_tertiary_60
+            weight: '30'
+            less_var: $color-tertiary-60
+            value: '#F6D580'
+            group: group_tertiary
+            plugin_id: color
+          color_tertiary_40:
+            label: 'Tertiary 40%'
+            id: color_tertiary_40
+            weight: '40'
+            less_var: $color-tertiary-40
+            value: '#F9E3AA'
+            group: group_tertiary
+            plugin_id: color
+          color_tertiary_20:
+            label: 'Tertiary 20%'
+            id: color_tertiary_20
+            weight: '50'
+            less_var: $color-tertiary-20
+            value: '#FCF1D4'
+            group: group_tertiary
+            plugin_id: color
+          color_tertiary_10:
+            label: 'Tertiary 10%'
+            id: color_tertiary_10
+            weight: '60'
+            less_var: $color-tertiary-10
+            value: '#FEF8E9'
+            group: group_tertiary
+            plugin_id: color
+          color_tertiary_5:
+            label: 'Tertiary 5%'
+            id: color_tertiary_5
+            weight: '70'
+            less_var: $color-tertiary-5
+            value: '#FFFCF4'
+            group: group_tertiary
+            plugin_id: color
+      group_quarternary:
+        label: Quarternary
+        id: group_quarternary
+        weight: '40'
+        plugin_id: color_group
+        colors:
+          color_quarternary:
+            label: Quarternary
+            id: color_quarternary
+            weight: '10'
+            less_var: $color-quarternary
+            value: '#0098C1'
+            group: group_quarternary
+            plugin_id: color
+          color_quarternary_80:
+            label: 'Quarternary 80%'
+            id: color_quarternary_80
+            weight: '20'
+            less_var: $color-quarternary-80
+            value: '#33ACCD'
+            group: group_quarternary
+            plugin_id: color
+          color_quarternary_60:
+            label: 'Quarternary 60%'
+            id: color_quarternary_60
+            weight: '30'
+            less_var: $color-quarternary-60
+            value: '#66C1DA'
+            group: group_quarternary
+            plugin_id: color
+          color_quarternary_40:
+            label: 'Quarternary 40%'
+            id: color_quarternary_40
+            weight: '40'
+            less_var: $color-quarternary-40
+            value: '#99D6E6'
+            group: group_quarternary
+            plugin_id: color
+          color_quarternary_20:
+            label: 'Quarternary 20%'
+            id: color_quarternary_20
+            weight: '50'
+            less_var: $color-quarternary-20
+            value: '#CCEAF3'
+            group: group_quarternary
+            plugin_id: color
+          color_quarternary_10:
+            label: 'Quarternary 10%'
+            id: color_quarternary_10
+            weight: '60'
+            less_var: $color-quarternary-10
+            value: '#E5F5F9'
+            group: group_quarternary
+            plugin_id: color
+          color_quarternary_5:
+            label: 'Quarternary 5%'
+            id: color_quarternary_5
+            weight: '70'
+            less_var: $color-quarternary-5
+            value: '#F2FAFC'
+            group: group_quarternary
+            plugin_id: color
+  typography_definition_container:
+    id: typography_definitions_container
+    label: 'Typography definitions'
+    weight: 20
+    definitions:
+      heading_1:
+        label: 'Heading 1'
+        id: heading_1
+        weight: '10'
+        plugin_id: typography
+        less_var: heading-1
+        css_selector: 'h1, .h1'
+        value:
+          style:
+            color: '#000000'
+            font-size: '48px'
+            font-family: 'Serif'
+          breakpoints:
+            '(max-width: 992px)':
+              color: '#000000'
+              font-size: '36px'
+              font-family: 'Serif'
+            '(max-width: 767px)':
+              color: '#000000'
+              font-size: '24px'
+              font-family: 'Serif'
+          pseudo:
+            '::before':
+              style:
+                content: ">"
+                font-size: '40px'
+              breakpoints:
+                '(max-width: 992px)':
+                  font-size: '32px'
+                '(max-width: 767px)':
+                  font-size: '20px'
+      heading_2:
+        label: 'Heading 2'
+        id: heading_2
+        weight: '20'
+        plugin_id: typography
+        less_var: heading-2
+        css_selector: 'h2, .h2'
+        value:
+          style:
+            color: '#ff0000'
+            font-size: '48px'
+            font-family: 'monospace'
+          breakpoints:
+            '(max-width: 992px)':
+              color: '#ff0000'
+              font-size: '36px'
+              font-family: 'monospace'
+            '(max-width: 767px)':
+              color: '#ff0000'
+              font-size: '24px'
+              font-family: 'monospace'
+

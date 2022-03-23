@@ -1,0 +1,19 @@
+backend-styling:
+  version: VERSION
+  css:
+    theme:
+      /modules/contrib/pagedesigner/vendor/grapesjs/css/grapes.min.css: { external: true }
+      /modules/contrib/pagedesigner/resources/css/grapesjs/grapesjs-pd-base.min.css: { minified: true }
+      /modules/contrib/pagedesigner/resources/css/pagedesigner.css: {}
+      resources/css/backend.css: {}
+    component:
+      //use.fontawesome.com/releases/v5.15.2/css/all.css: { external: true }
+      //use.fontawesome.com/releases/v5.15.2/css/v4-shims.css: { external: true }
+  js:
+    /modules/contrib/pagedesigner/vendor/grapesjs/grapesjs-parser-postcss.min.js: { external: true }
+    /modules/contrib/pagedesigner/vendor/grapesjs/grapes.min.js: { external: true }
+    /modules/contrib/pagedesigner/resources/js/grapesjs/grapesjs-pd-base.min.js: {}
+
+    resources/js/components.js: {}
+#    resources/js/grapesjs-typopgraphy-definition-plugin.js: {}
+    resources/js/backend.js: {}

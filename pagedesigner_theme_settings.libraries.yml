@@ -1,0 +1,7 @@
+backend-styling:
+  version: VERSION
+  css:
+    theme:
+      resources/css/backend.css: {}
+  js:
+    resources/js/backend.js: {}

@@ -1,0 +1,8 @@
+services:
+   plugin.manager.pagedesigner_theme_settings.style_definition_container:
+     class: Drupal\pagedesigner_theme_settings\StyleDefinitionContainerPluginManager
+     parent: default_plugin_manager
+
+   plugin.manager.pagedesigner_theme_settings.style_definition:
+     class: Drupal\pagedesigner_theme_settings\StyleDefinitionPluginManager
+     parent: default_plugin_manager

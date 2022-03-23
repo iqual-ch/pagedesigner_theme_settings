@@ -1,0 +1,5 @@
+entity.theme_settings.add_form:
+  route_name: 'entity.theme_settings.add_form'
+  title: 'Add theme settings'
+  appears_on:
+    - entity.theme_settings.collection
